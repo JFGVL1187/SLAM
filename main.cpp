@@ -2,8 +2,8 @@
 #include "libHelloSLAM.h"
 #include <ctime>
 //eigen lib's header folder is in /usr/include/eigen3
-#include <eigen3/Eigen/Core> 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Core> 
+#include <Eigen/Dense>
 using namespace Eigen;
 using namespace std;
 #define MATRIX_SIZE 50
@@ -26,8 +26,7 @@ int main(int argc, char** argv){
     MatrixXd matrix_x;
     MatrixXd matrix_x_linux;
 
-    MatrixXd matrix_x_mac;
-    cout << "Mac changed" << endl;
+    cout << "Mainline Updated 4" << endl;
 
 
 

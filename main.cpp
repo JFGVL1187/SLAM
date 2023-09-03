@@ -26,7 +26,8 @@ int main(int argc, char** argv){
     MatrixXd matrix_x;
     MatrixXd matrix_x_linux;
 
-    cout << "Mainline Updated new" << endl;
+    MatrixXd matrix_x_mac;
+    cout << "Mac changed" << endl;
 
 
 

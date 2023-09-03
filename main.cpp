@@ -25,7 +25,8 @@ int main(int argc, char** argv){
     Matrix<double, Dynamic, Dynamic> matrix_dynamic;
     MatrixXd matrix_x;
 
-    cout << "Mainline" << endl;
+    MatrixXd matrix_x_mac;
+    cout << "Mac" << endl;
 
 
 

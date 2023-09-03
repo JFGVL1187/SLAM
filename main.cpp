@@ -2,8 +2,8 @@
 #include "libHelloSLAM.h"
 #include <ctime>
 //eigen lib's header folder is in /usr/include/eigen3
-#include <Eigen/Core> 
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Core> 
+#include <eigen3/Eigen/Dense>
 using namespace Eigen;
 using namespace std;
 #define MATRIX_SIZE 50

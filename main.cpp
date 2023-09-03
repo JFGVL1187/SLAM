@@ -24,6 +24,7 @@ int main(int argc, char** argv){
     Matrix3d matrix_33 = Matrix3d::Zero(); //Matrix<double, 3, 3>
     Matrix<double, Dynamic, Dynamic> matrix_dynamic;
     MatrixXd matrix_x;
+    MatrixXd matrix_x_linux;
 
     MatrixXd matrix_x_mac;
     cout << "Mac changed" << endl;

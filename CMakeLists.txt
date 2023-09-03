@@ -9,5 +9,3 @@ add_library(libHello SHARED libHelloSLAM.cpp)
 add_executable(helloSLAM_Program main.cpp)
 
 target_link_libraries(helloSLAM_Program libHello)
-
-include_directories(/opt/homebrew/Cellar/eigen/3.4.0_1/include)

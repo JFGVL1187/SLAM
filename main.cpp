@@ -12,6 +12,5 @@ int main(int argc, char** argv){
 
     Matrix<float, 2, 3> matrix_23;
 
-
     return 0;
 }
